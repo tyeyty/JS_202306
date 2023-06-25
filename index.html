@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Screen</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body id="background">
+      <dov id="login_box">
+        <form id="login_form">
+          <p id="name_box1">Your Name</p>
+          <input type="text" placeholder="What's your name? Write and Press Enter" required maxlength="15">
+        </form>
+        <h1 class="hidden" id="greeting">name</h1>
+      </dov>
+      <h1 id="weather"></h1>
+      <h1 id="date"></h1>
+      <h1 id="clock"></h1>
+        <form id="todo-form">
+          <input type="text" placeholder="Write Your To Do and Press Enter." required id="todo_input">
+          <div class="todo_box">
+            <span id="todo_title">To Do List</span>
+          </div>
+        </form>
+        <div class="todo_box2">
+          <ul id="todo-list"></ul>
+        </div>
+      
+
+
+    <script src="src/index.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
